@@ -2,7 +2,7 @@
   <artifact type="jar" build-on-make="true" name="VirtualNumericKeyboard:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/VirtualNumericKeyboard_jar</output-path>
     <root id="archive" name="VirtualNumericKeyboard.jar">
-      <element id="module-output" name="VirtualNumericKeyboard" />
+      <element id="module-output" name="VirtualNumpad" />
     </root>
   </artifact>
 </component>

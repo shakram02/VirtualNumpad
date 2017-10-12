@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/VirtualNumericKeyboard.iml" filepath="$PROJECT_DIR$/VirtualNumericKeyboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VirtualNumpad.iml" filepath="$PROJECT_DIR$/VirtualNumpad.iml" />
     </modules>
   </component>
 </project>
