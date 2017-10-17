@@ -1,6 +1,6 @@
-package VirtualKeyboard;
+package VirtualNumpad;
 
-import VirtualKeyboard.lib.VirtualNumpad;
+import VirtualNumpad.lib.VirtualNumpad;
 
 import java.awt.*;
 import java.util.Scanner;
@@ -30,11 +30,12 @@ public class Main {
         Thread t = new Thread(() -> {
             try {
                 Thread.sleep(secCount * 1000);
+                virtualNumpad.type(inputString);
+                virtualNumpad.pressEnter();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            virtualNumpad.type(inputString);
-            virtualNumpad.pressEnter();
+
         });
         t.start();
     }
