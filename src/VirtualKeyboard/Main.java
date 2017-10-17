@@ -1,6 +1,6 @@
-package com.vnumpad;
+package VirtualKeyboard;
 
-import com.lib.NumberWriter;
+import VirtualKeyboard.lib.VirtualNumpad;
 
 import java.awt.*;
 import java.util.Scanner;
@@ -16,7 +16,7 @@ public class Main {
     }
 
     private static void run() throws AWTException, InterruptedException, NoSuchFieldException, IllegalAccessException {
-        final NumberWriter numberWriter = new NumberWriter();
+        final VirtualNumpad virtualNumpad = new VirtualNumpad();
         Scanner s = new Scanner(System.in);
 
         System.out.print("What should I type [numeric strings only ex. \"123\"]? ");
@@ -33,8 +33,8 @@ public class Main {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            numberWriter.type(inputString);
-            numberWriter.pressEnter();
+            virtualNumpad.type(inputString);
+            virtualNumpad.pressEnter();
         });
         t.start();
     }

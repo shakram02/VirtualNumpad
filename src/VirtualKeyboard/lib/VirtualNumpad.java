@@ -1,4 +1,4 @@
-package com.lib;
+package VirtualKeyboard.lib;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -8,10 +8,10 @@ import java.lang.reflect.Field;
 /**
  * Simulates a numpad
  */
-public class NumberWriter {
+public class VirtualNumpad {
     private Robot bot;
 
-    public NumberWriter() {
+    public VirtualNumpad() {
         try {
             bot = new Robot();
         } catch (AWTException e) {
